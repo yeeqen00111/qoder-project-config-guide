@@ -160,4 +160,4 @@ git rm -r --cached _reference
 
 ---
 
-> 配套：本仓库根目录已按本教程建好 `_reference/` 并写入 `.gitignore`，可直接把参考素材丢进去用。
+> 配套：本仓库的 `.gitignore` **已提交**了 `_reference/` 这条忽略规则（规则会随仓库走）；但 `_reference/` 文件夹本身是空的、又被忽略，**不会进入远程仓库、clone 后也不存在**（正如第 7 节所说）。需要时在自己本地 `mkdir _reference` 建一个，再往里丢参考素材即可。
