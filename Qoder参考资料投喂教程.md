@@ -157,7 +157,3 @@ git status --short              # 不应出现 _reference
 # 万一之前误提交了：停止跟踪但保留本地文件
 git rm -r --cached _reference
 ```
-
----
-
-> 配套：本仓库的 `.gitignore` **已提交**了 `_reference/` 这条忽略规则（规则会随仓库走）；但 `_reference/` 文件夹本身是空的、又被忽略，**不会进入远程仓库、clone 后也不存在**（正如第 7 节所说）。需要时在自己本地 `mkdir _reference` 建一个，再往里丢参考素材即可。
