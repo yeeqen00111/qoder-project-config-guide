@@ -1,12 +1,13 @@
 ﻿# Qoder 项目级配置指南
 
-一份完整的《Qoder 项目级配置完全教程》，外加**可直接复制使用**的配套工具：一个配置向导 skill、10 篇「用自然语言创建」教学、一个 Windows shell UTF-8 防乱码 skill。
+一份完整的《Qoder 项目级配置完全教程》、一篇《Qoder 参考资料投喂教程》，外加**可直接复制使用**的配套工具：一个配置向导 skill、10 篇「用自然语言创建」教学、一个 Windows shell UTF-8 防乱码 skill。
 
 ## 仓库结构
 
 ```
 qoder-project-config-guide/
 ├── Qoder项目级配置完全教程.md      # 主教程：10 项配置 + 插件，逐项讲解与 Demo
+├── Qoder参考资料投喂教程.md        # 附教程：不属于项目的文档/图片怎么喂给 Qoder（vibe coding）
 ├── qoder-config-init/              # 交付物1：配置向导 skill（复制到 .qoder/skills/ 即用）
 │   ├── SKILL.md                    #   向导流程
 │   ├── REFERENCE.md                #   10 项权威格式速查（知识底座）
@@ -50,6 +51,10 @@ qoder-project-config-guide/
 9. `.mcp.json` —— 外部工具接入（MCP 服务器）
 10. `.qoder/output-styles/` —— 输出风格
 11. Plugins（插件）—— 把上述能力打包分发【高级·可选】
+
+## 附教程：参考资料投喂
+
+《[Qoder 参考资料投喂教程](./Qoder参考资料投喂教程.md)》——讲「不属于项目、也不想入库」的外部文档 / 图片（PRD、原型图、竞品截图）该怎么喂给 Qoder 做需求分析。核心：用一个 gitignored 的 `_reference/` 文件夹（Qoder 读磁盘、与 git 无关，能读但永不提交），含三种投喂方式、各格式处理、vibe coding 实操流程与常见坑。
 
 ## 核验口径
 
